@@ -1,0 +1,48 @@
+.message_modal{
+  position: absolute;
+  width: 400px;
+  min-height: 150px;
+  left: calc(50% - 200px);
+  background-color: #fff;
+  top: calc(50% - 50px);
+  border-radius: 20px;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.message_title{
+  color: white;
+  padding: 5px;
+  text-align: center;
+  margin: 0;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: rgb(212, 0, 0);
+}
+
+.message_message{
+  padding: 20px 15px;
+  display: inline-block;
+  margin-bottom: 15px;
+}
+
+.close_message_btn{
+  position: absolute;
+  outline: none;
+  border: none;
+  background-color:rgb(212, 0, 0);
+  color: white;
+  padding: 5px 10px;
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  border-radius: 5px;
+  bottom: 10px;
+  right: calc(50% - 22px);
+  cursor: pointer;
+  transition: .2s ease;
+}
+
+.close_message_btn:hover{
+  filter: brightness(1.2);
+}

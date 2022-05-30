@@ -1,0 +1,6 @@
+header{
+  border-bottom: 2px solid rgb(25, 118, 210);
+  display: grid;
+  padding: 5px;
+  place-items: center;
+}

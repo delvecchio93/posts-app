@@ -1,0 +1,21 @@
+.error_page{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: rgb(25, 118, 210);
+}
+
+.error_page h1{
+  font-size: 300px;
+  margin: 0;
+}
+
+.error_page span {
+  font-size: 50px;
+}
+
+.error_page button{
+  margin-top: 40px;
+  transform: scale(1.5);
+}
